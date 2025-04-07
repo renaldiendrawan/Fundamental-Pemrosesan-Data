@@ -1,6 +1,6 @@
 Nama: Renaldi Endrawan  
 Email: mc129d5y1924@student.devacademy.id
-Link GitHub: https://github.com/renaldiendrawan/submission-pemda  
+Link GitHub: https://github.com/renaldiendrawan/Fundamental-Pemrosesan-Data.git
 
 Proyek ini mengimplementasikan proses ETL dari situs Fashion Studio. Proses terdiri dari:  
 1. Extract: Mengambil 50 halaman data produk menggunakan BeautifulSoup.  
