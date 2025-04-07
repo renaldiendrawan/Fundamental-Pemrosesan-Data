@@ -1,0 +1,9 @@
+beautifulsoup4~=4.12
+google-api-python-client~=2.152
+google-auth~=2.36
+pandas~=2.2
+psycopg2-binary~=2.9
+pytest-cov~=6.0
+python-crontab~=3.2
+requests~=2.32
+sqlalchemy~=2.0

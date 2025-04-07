@@ -1,0 +1,21 @@
+Nama: Renaldi Endrawan  
+Email: mc129d5y1924@student.devacademy.id
+Link GitHub: https://github.com/renaldiendrawan/submission-pemda  
+
+Proyek ini mengimplementasikan proses ETL dari situs Fashion Studio. Proses terdiri dari:  
+1. Extract: Mengambil 50 halaman data produk menggunakan BeautifulSoup.  
+2. Transform: Membersihkan data, konversi harga, parsing rating, warna, ukuran, dan gender.  
+3. Load: Menyimpan hasil ke file CSV, Google Sheets, dan PostgreSQL.  
+
+# Menjalankan skrip  
+py main.py  
+
+# Menjalankan unit test pada folder tests  
+py -m pytest tests  
+
+# Menjalankan test coverage pada folder tests  
+coverage run -m pytest tests  
+coverage report  
+
+# URL Google Sheets:  
+https://docs.google.com/spreadsheets/d/1GwJy0AXTB6GNC2832ZNU3xIGAd7_USm6YVk8k4AbPeY/edit?gid=0#gid=0
