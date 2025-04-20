@@ -7,10 +7,10 @@ from utils.load import load_to_csv, load_to_google_sheets, load_to_postgresql
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Ganti dengan ID Sheet yang benar dari Google Sheets kamu
-GOOGLE_SHEET_ID = '1GwJy0AXTB6GNC2832ZNU3xIGAd7_USm6YVk8k4AbPeY'
+GOOGLE_SHEET_ID = 'your_google_sheet_id'
 
 # Ganti dengan database URL PostgreSQL kamu
-POSTGRESQL_URL = 'postgresql://developer:secretpassword@localhost:5432/fashionstudio'
+POSTGRESQL_URL = 'postgresql://username:password@localhost:5432/fashionstudio'
 
 def main():
     logging.info("Mulai proses ETL...")
