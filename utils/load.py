@@ -15,7 +15,7 @@ def load_to_csv(df, filename='products.csv'):
         logging.error(f"Gagal menyimpan ke CSV: {e}")
         logging.debug(traceback.format_exc())
 
-def load_to_google_sheets(df, sheet_id, creds_file='sheets-api-project-456107-93ab31a6751b.json'):
+def load_to_google_sheets(df, sheet_id, creds_file='your sheets api'):
     import pandas as pd
     try:
         scope = [
